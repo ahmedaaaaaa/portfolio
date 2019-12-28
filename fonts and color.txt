@@ -1,0 +1,20 @@
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Philosopher&display=swap" rel="stylesheet">
+
+
+
+  font-family: 'Abril Fatface', cursive; العناوين الرئيسيه
+
+
+font-family: 'Philosopher', sans-serif; العناوين الفرعيه
+
+font-family: 'Josefin Slab', serif; (prag)
+
+
+
+colcor
+
+ color: rgba(228, 52, 160, 0.733);
+ 
+ black;
+ 
+ #0e0f10;

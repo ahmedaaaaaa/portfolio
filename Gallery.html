@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/simplebar.css">
+  <link rel="stylesheet" href="css/hover-min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Josefin+Slab|Philosopher&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3584981197.js"></script>
+  <!-- Demo styles -->
+  
+</head>
+<body>
+    <div id="con" class="row center perloader z">
+        <div class="col center z ">
+    
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                <circle cx="170" cy="170" r="160" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="135" stroke="#404041"/>
+                <circle cx="170" cy="170" r="110" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="85" stroke="#404041"/>
+            </svg>
+            
+        </div>
+        
+    </div>
+  <!-- Swiper -->
+  <main class="d">
+    <div id="particles-js"></div>
+    <!--Start nav bar -->
+    
+      <div class="row tecen ">
+        <div class="col-12 col-sm-12 ">
+            <h1 class="hh1 mar2 ref">  Gallery </h1>
+        </div>
+      </div>
+                  
+        
+      <div class="row portcl">
+      
+              
+        <div class="col-1 stnavcol pding">
+                  <div class="nav flex-column nav-pills icon-bar sticky" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <ul class="center">
+  
+                        <li id="navbu1" class="listy" data-tooltip="home" data-position="top" aria-selected="true" >
+                            <a href="home.html" class="icon-h fas fa-house-damage " title="Home"    data-toggle="popover" data-placement="right" data-content="Home"></a>
+                        </li>
+                        
+                        <li id="navbu2" class="listy" data-tooltip="about" title="About" data-position="top">
+                            <a href="about.html" class="icon-a fas fa-user-tie"></a>
+                        </li>
+            
+                        
+                        <li id="navbu4" class="listy" data-tooltip="Gallery" title="Gallery" data-position="top">
+                            <a href="Gallery.html"> <i class="fab fa-glide-g"></i></a>
+                        </li>    
+                        
+                        <!--
+                          <li id="navbu4" class="listy" data-tooltip="contact" title="Contact" data-position="top">
+                              <a href="contact.html" class="icon-c fas fa-envelope"></a>
+                          </li>
+                        -->
+                      </ul>
+                
+  
+                  </div>
+               </div>			
+          
+         
+        
+        
+        <!--end nav bar -->
+        
+            <div class="col-11 stnavcol ">
+  
+  
+                <!--start Topnav-->
+                      <ul class="nav  justify-content-center nav-ul row  ">
+  
+                        <li class="nav-item borimg  ">
+                            <a class="nav-link  nav-a control" id="all" data-filter="all" href="#">All</a>
+                        </li>
+                    
+                        <li class="nav-item borimg ">
+                          <a class="nav-link nav-a control" id="full"   data-filter=".green" href="#">Full Website</a>
+                        </li>
+                    
+                        <li class="nav-item borimg  ">
+                          <a class="nav-link nav-a control" id="temp"  data-filter=".blue" href="#">Templates</a>
+                        </li>
+                        
+                      </ul>
+                <!--end Topnav-->
+                  <!--start Gallary-->
+
+                  <div class="swiper-container ref" id="ph1">
+
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide" style="background-image:url(./img/web3.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web3.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web.jpg)"></div> 
+                      <div class="swiper-slide" style="background-image:url(./img/web4.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div> 
+                      <div class="swiper-slide" style="background-image:url(./img/web5.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                      <div class="swiper-slide" style="background-image:url(./img/web3.jpg)"></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    </div>
+
+
+                    <div class="swiper-container ref" id="ph2">
+                      <div class="swiper-wrapper ">
+                        <div class="swiper-slide" style="background-image:url(./img/web.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web5.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web3.jpg)"></div> 
+                        <div class="swiper-slide" style="background-image:url(./img/web4.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web.jpg)"></div> 
+                        <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web5.jpg)"></div>
+                        <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                      </div>
+                      <!-- Add Pagination -->
+                      <div class="swiper-pagination"></div>
+                      </div>
+
+
+                      <div class="swiper-container ref" id="ph3">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web4.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web3.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div> 
+                          <div class="swiper-slide" style="background-image:url(./img/web.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div> 
+                          <div class="swiper-slide" style="background-image:url(./img/web5.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web1.jpg)"></div>
+                          <div class="swiper-slide" style="background-image:url(./img/web2.jpg)"></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        </div>
+                      
+            </div>
+                
+        
+        
+      </div>
+  
+      
+      
+  </main>
+  <!-- Swiper JS -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/three.r92.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/vanta.birds.min.js"></script>
+    <script src="js/simplebar.js"></script>
+    <script src="js/jq.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/app.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+   var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows : true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+  </script>
+  
+  
+</body>
+</html>
